@@ -94,3 +94,6 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
+
+set colorcolumn=80
+highlight ColorColumn ctermbg=233
