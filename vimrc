@@ -87,6 +87,9 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 let g:flake8_show_in_gutter=1
 let g:flake8_show_in_file=1
 
+" Gitgutter config
+let g:gitgutter_eager=1
+
 " Splits
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -97,3 +100,7 @@ set splitright
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
+
+set autochdir
+
+set foldlevel=99
