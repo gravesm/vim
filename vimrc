@@ -107,3 +107,6 @@ set foldlevel=99
 
 " copy in vim will be available in system clipboard
 set clipboard=unnamedplus
+
+" turn off recording
+map q <Nop>
