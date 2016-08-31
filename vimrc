@@ -16,6 +16,8 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'nvie/vim-flake8'
+Plugin 'sukima/xmledit'
+Plugin 'tpope/vim-dispatch'
 
 " Color schemes
 Plugin 'nanotech/jellybeans.vim'
