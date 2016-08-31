@@ -71,8 +71,6 @@ set scrolloff=3
 set mouse=a
 set ttymouse=xterm2
 
-set updatetime=250
-
 set background=dark
 colorscheme jellybeans
 
@@ -88,7 +86,9 @@ let g:flake8_show_in_gutter=1
 let g:flake8_show_in_file=1
 
 " Gitgutter config
-let g:gitgutter_eager=1
+let g:gitgutter_eager=0
+let g:gitgutter_realtime=0
+"set updatetime=250
 
 " Splits
 nnoremap <C-J> <C-W><C-J>
