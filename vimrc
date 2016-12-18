@@ -18,6 +18,7 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'nvie/vim-flake8'
 Plugin 'sukima/xmledit'
 Plugin 'tpope/vim-dispatch'
+Plugin 'fatih/vim-go'
 
 " Color schemes
 Plugin 'nanotech/jellybeans.vim'
