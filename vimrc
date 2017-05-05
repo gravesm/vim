@@ -115,3 +115,11 @@ set clipboard=unnamedplus
 
 " turn off recording
 map q <Nop>
+
+" Git commands
+nnoremap <leader>gs :Gstatus<CR>
+nnoremap <leader>gd :Gdiff<CR>
+
+" Navigate quick fix
+nnoremap [q :cnext<CR>
+nnoremap ]q :cprev<CR>
