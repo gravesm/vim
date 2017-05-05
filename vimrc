@@ -19,6 +19,7 @@ Plugin 'nvie/vim-flake8'
 Plugin 'sukima/xmledit'
 Plugin 'tpope/vim-dispatch'
 Plugin 'fatih/vim-go'
+Plugin 'dbakker/vim-projectroot'
 
 " Color schemes
 Plugin 'nanotech/jellybeans.vim'
@@ -33,6 +34,7 @@ set t_Co=256 " this can be removed if I can ever get gnome terminal to work prop
 
 syntax enable
 
+let mapleader = ","
 
 set history=1000
 set noshowmode
@@ -102,7 +104,7 @@ set splitbelow
 set splitright
 
 set colorcolumn=80
-highlight ColorColumn ctermbg=233
+highlight ColorColumn ctermbg=234
 
 set autochdir
 
