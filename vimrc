@@ -20,6 +20,7 @@ Plugin 'sukima/xmledit'
 Plugin 'tpope/vim-dispatch'
 Plugin 'fatih/vim-go'
 Plugin 'dbakker/vim-projectroot'
+Plugin 'valloric/YouCompleteMe'
 
 " Color schemes
 Plugin 'nanotech/jellybeans.vim'
@@ -44,6 +45,8 @@ set undofile
 set directory=~/.vim/.swp//
 set backupdir=~/.vim/.backup//
 set backup
+
+set backspace=indent,eol,start
 
 " Global TAB settings
 set tabstop=2
@@ -123,3 +126,6 @@ nnoremap <leader>gd :Gdiff<CR>
 " Navigate quick fix
 nnoremap [q :cnext<CR>
 nnoremap ]q :cprev<CR>
+
+" YCM GoTo
+nnoremap <leader>gt :YcmCompleter GoTo<CR>
