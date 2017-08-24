@@ -21,6 +21,7 @@ Plugin 'tpope/vim-dispatch'
 Plugin 'fatih/vim-go'
 Plugin 'dbakker/vim-projectroot'
 Plugin 'valloric/YouCompleteMe'
+Plugin 'sjl/gundo.vim'
 
 " Color schemes
 Plugin 'nanotech/jellybeans.vim'
@@ -30,8 +31,6 @@ Plugin 'w0ng/vim-hybrid'
 
 call vundle#end()
 filetype plugin indent on
-
-set t_Co=256 " this can be removed if I can ever get gnome terminal to work properly
 
 syntax enable
 
@@ -129,3 +128,7 @@ nnoremap ]q :cprev<CR>
 
 " YCM GoTo
 nnoremap <leader>gt :YcmCompleter GoTo<CR>
+
+" Gundo needs this to work with python3
+let g:gundo_prefer_python3 = 1
+nnoremap <leader>u :GundoToggle<CR>

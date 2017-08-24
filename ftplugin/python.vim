@@ -1,3 +1,4 @@
+let g:ycm_binary_python_path = 'python'
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
