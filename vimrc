@@ -22,6 +22,7 @@ Plugin 'fatih/vim-go'
 Plugin 'dbakker/vim-projectroot'
 Plugin 'valloric/YouCompleteMe'
 Plugin 'sjl/gundo.vim'
+Plugin 'mileszs/ack.vim'
 
 " Color schemes
 Plugin 'nanotech/jellybeans.vim'
@@ -132,3 +133,7 @@ nnoremap <leader>gt :YcmCompleter GoTo<CR>
 " Gundo needs this to work with python3
 let g:gundo_prefer_python3 = 1
 nnoremap <leader>u :GundoToggle<CR>
+
+" ag search with ack.vim
+let g:ackprg = 'ag --vimgrep'
+nnoremap <leader>s :Ack<Space>
