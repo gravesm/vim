@@ -23,6 +23,8 @@ Plugin 'dbakker/vim-projectroot'
 Plugin 'valloric/YouCompleteMe'
 Plugin 'sjl/gundo.vim'
 Plugin 'mileszs/ack.vim'
+Plugin 'lepture/vim-jinja'
+Plugin 'haya14busa/incsearch.vim'
 
 " Color schemes
 Plugin 'nanotech/jellybeans.vim'
@@ -137,3 +139,12 @@ nnoremap <leader>u :GundoToggle<CR>
 " ag search with ack.vim
 let g:ackprg = 'ag --vimgrep'
 nnoremap <leader>s :Ack<Space>
+
+" incsearch.vim
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
+set hlsearch
+let g:incsearch#auto_nohlsearch = 1
+map n <Plug>(incsearch-nohl-n)
+map N <Plug>(incsearch-nohl-N)
